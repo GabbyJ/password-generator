@@ -82,15 +82,27 @@ body{
     border-color:darkblue;
   }
 
+  footer{
+    width: 58%;
+    max-width: 480px;
+    text-align: right;
+  }
+
   @media only screen and (max-width: 718px) {
     form{
       width: 80%;
+    }
+    footer{
+      width: 78%;
     }
   }
 
   @media only screen and (max-width: 522px) {
     form{
       width: 90%;
+    }
+    footer{
+      width: 88%;
     }
   }
 

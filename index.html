@@ -9,25 +9,26 @@
 <body>
     <form id="passwordForm">
         <h1>Password Generator</h1>
-        <p class="password" id="passwordDisplay">Password goes here</p>
-        <label for="amountNumber">Number of Characters
+        <p class="password" id="passwordDisplay">Password</p>
+        <label for="amountNumber"><strong>Number of Characters</strong>
             <div class="rangeSlider">
-                <input type="range" min="0" max="50" value="10" id="amountRange">
-                <input type="number" min="0" max="50" value="10" id="amountNumber">
+                <input type="range" min="4" max="50" value="10" id="amountRange">
+                <input type="number" min="4" max="50" value="10" id="amountNumber">
             </div>
         </label>
-        <label for="uppercase">Include Uppercase
+        <label for="uppercase"><strong>Include Uppercase</strong>
             <input type="checkbox" id="uppercase"/>
         </label>
-        <label for="numbers">Include Numbers
+        <label for="numbers"><strong>Include Numbers</strong>
             <input type="checkbox" id="numbers"/>
         </label>
-        <label for="symbols">Include Symbols
+        <label for="symbols"><strong>Include Symbols</strong>
             <input type="checkbox" id="symbols"/>
         </label>
         
         <button type="submit">Generate Password</button>
     </form>
+    <footer>Made with ❤️ by Gabrielle Jacobs</footer>
 </body>
 <script src="index.js"></script>
 </html>
